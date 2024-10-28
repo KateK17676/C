@@ -1,8 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Введение", "1. Введение", "{3A5C6777-D167-4DC4-B263-0DE923C5240D}"
+	ProjectSection(SolutionItems) = preProject
+		Введение.md = Введение.md
+		Математические операции.md = Математические операции.md
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Введение", "Введение\Введение.vcxproj", "{8426F15D-3D7A-4CF2-A8E0-99BE3C089DA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Задачи", "Задачи", "{62123552-58E2-49C0-8C41-27D66A932989}"
+	ProjectSection(SolutionItems) = preProject
+		Задача 8 Расстояние между точками.md = Задача 8 Расстояние между точками.md
+		Задача 10 Площадь треугольника.md = Задача 10 Площадь треугольника.md
+		Задача 9 Секунды.md = Задача 9 Секунды.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +22,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8426F15D-3D7A-4CF2-A8E0-99BE3C089DA6} = {3A5C6777-D167-4DC4-B263-0DE923C5240D}
+		{62123552-58E2-49C0-8C41-27D66A932989} = {3A5C6777-D167-4DC4-B263-0DE923C5240D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8426F15D-3D7A-4CF2-A8E0-99BE3C089DA6}.Debug|Any CPU.ActiveCfg = Debug|Win32
