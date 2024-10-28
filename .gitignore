@@ -69,3 +69,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 /.idea/.idea.C/.idea
 /.vs/C
+**/Debug/**
