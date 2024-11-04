@@ -15,6 +15,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Задачи", "Задач�
 		Задача 9 Секунды.md = Задача 9 Секунды.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Условные конструкции", "2. Условные конструкции", "{74E42531-42E0-4E8A-9014-87A5BC141EDC}"
+	ProjectSection(SolutionItems) = preProject
+		Условные конструкции.md = Условные конструкции.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Условные_конструкции", "Условные_конструкции\Условные_конструкции.vcxproj", "{0DDF1B0C-E300-4161-8F4E-6544F9EBEE6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Задачи", "Задачи", "{4C8E2EB7-3FCD-41A2-9555-8872A75A03BF}"
+	ProjectSection(SolutionItems) = preProject
+		Задача 1 Шахматная ладья.md = Задача 1 Шахматная ладья.md
+		Задача 2 Шахматный король.md = Задача 2 Шахматный король.md
+		Задача 3 Шахматный слон.md = Задача 3 Шахматный слон.md
+		Задача 4 Шахматный ферзь.md = Задача 4 Шахматный ферзь.md
+		Задача 5 Шахматный конь.md = Задача 5 Шахматный конь.md
+		Задача 6 Тип треугольника.md = Задача 6 Тип треугольника.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +40,17 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8426F15D-3D7A-4CF2-A8E0-99BE3C089DA6} = {3A5C6777-D167-4DC4-B263-0DE923C5240D}
 		{62123552-58E2-49C0-8C41-27D66A932989} = {3A5C6777-D167-4DC4-B263-0DE923C5240D}
+		{0DDF1B0C-E300-4161-8F4E-6544F9EBEE6E} = {74E42531-42E0-4E8A-9014-87A5BC141EDC}
+		{4C8E2EB7-3FCD-41A2-9555-8872A75A03BF} = {74E42531-42E0-4E8A-9014-87A5BC141EDC}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8426F15D-3D7A-4CF2-A8E0-99BE3C089DA6}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{8426F15D-3D7A-4CF2-A8E0-99BE3C089DA6}.Debug|Any CPU.Build.0 = Debug|Win32
 		{8426F15D-3D7A-4CF2-A8E0-99BE3C089DA6}.Release|Any CPU.ActiveCfg = Release|Win32
 		{8426F15D-3D7A-4CF2-A8E0-99BE3C089DA6}.Release|Any CPU.Build.0 = Release|Win32
+		{0DDF1B0C-E300-4161-8F4E-6544F9EBEE6E}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0DDF1B0C-E300-4161-8F4E-6544F9EBEE6E}.Debug|Any CPU.Build.0 = Debug|Win32
+		{0DDF1B0C-E300-4161-8F4E-6544F9EBEE6E}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0DDF1B0C-E300-4161-8F4E-6544F9EBEE6E}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
