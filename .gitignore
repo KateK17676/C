@@ -70,3 +70,5 @@ fabric.properties
 /.idea/.idea.C/.idea
 /.vs/C
 **/Debug/**
+/.vs
+/Задача 9/x64/Release
