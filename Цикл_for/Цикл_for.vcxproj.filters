@@ -15,8 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Цикл_for.cpp">
+    <ClCompile Include="Цикл_for.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Цикл For.md" />
   </ItemGroup>
 </Project>

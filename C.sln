@@ -49,6 +49,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Циклы", "3. Циклы", "{00256701-8CA2-49D7-8399-311A044717FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 Цикл For", "3.1 Цикл For", "{58931B03-8ED7-4692-9CD4-409061E04143}"
+	ProjectSection(SolutionItems) = preProject
+		Цикл_for\Цикл For.md = Цикл_for\Цикл For.md
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Цикл_for", "Цикл_for\Цикл_for.vcxproj", "{14760908-BD05-4282-AF87-1ACB2203FC07}"
 EndProject
