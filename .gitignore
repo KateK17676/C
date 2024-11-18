@@ -72,3 +72,4 @@ fabric.properties
 **/Debug/**
 /.vs
 /Задача 9/x64/Release
+/.idea
