@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Цикл_for.c">
+    <ClCompile Include="Цикл_while.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
