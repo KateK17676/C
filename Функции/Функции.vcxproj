@@ -156,9 +156,6 @@
   <ItemGroup>
     <ClCompile Include="Функции.c" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Функции.md" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

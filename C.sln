@@ -118,6 +118,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Двумерные_массивы", "Двумерные_массивы\Двумерные_массивы.vcxproj", "{8D5F436D-AEF0-4148-98B2-40941ADBD5C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Функции", "5. Функции", "{9F1C548C-30D0-40D7-A9D2-DD680FD067EC}"
+	ProjectSection(SolutionItems) = preProject
+		Функции.md = Функции.md
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Функции", "Функции\Функции.vcxproj", "{8071342B-9FAA-4D6E-BF97-46688971BCB4}"
 EndProject
