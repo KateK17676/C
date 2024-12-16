@@ -18,8 +18,8 @@ int main(int argc, char* argv[])
 			k_min = i;
 		if (arr[i] > arr[k_max])
 			k_max = i;
-
 	}
+
 	int mini = arr[k_min];
 	arr[k_min] = arr[k_max];
 	arr[k_max] = mini;

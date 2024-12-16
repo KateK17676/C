@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{ECB5D244-B6F4-4E3E-B5E3-A1709432D346}</ProjectGuid>
+    <ProjectGuid>{8071342B-9FAA-4D6E-BF97-46688971BCB4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Цикл_while</RootNamespace>
+    <RootNamespace>Функции</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,7 +154,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Цикл_while.c" />
+    <ClCompile Include="Функции.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Функции.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
