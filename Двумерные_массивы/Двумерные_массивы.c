@@ -16,8 +16,6 @@ void PrintMatrix(int** matrix, int row, int col)
 
 int** CreateMatrix(int row, int col)
 {
-    int row = 5, col = 6;
-
     int** matrix = (int**)malloc(sizeof(int*) * row);
     for (int i = 0; i < row; ++i)
         matrix[i] = (int*)calloc(col, sizeof(int));
