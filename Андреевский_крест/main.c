@@ -10,14 +10,6 @@ int** CreateMatrix(int n) {
 	return matrix;
 }
 
-int** ReadMatrix(int** matrix, int n) {
-	for (int i = 0; i < n; i++)
-		for (int j = 0; j < n; j++)
-			scanf("%d", &matrix[i][j]);
-
-	return matrix;
-}
-
 void PrintMatrix(int** matrix, int n)
 {
 	for (int i = 0; i < n; i++)
@@ -32,12 +24,8 @@ void PrintMatrix(int** matrix, int n)
 int** Dioganals(int** matrix, int n)
 {
 	for (int i = 0; i < n; i++)
-		for (int j = 0; j < n; j++) {
-			if ((i == j)||(i == n - j - 1)||(n - i - 1 == j))
-				matrix[i][j] = 1;
-			else
-				matrix[i][j] = 0;
-		}
+		for (int j = 0; j < n; j++)
+			matrix[i][j] = (i == j) || (i == n - j - 1);
 	return matrix;
 }
 
@@ -54,7 +42,6 @@ int main(int argc, char* argv[])
 	int n;
 	scanf("%d", &n);
 	int** matrix = CreateMatrix(n);
-	//matrix = ReadMatrix(matrix, n);
 	matrix = Dioganals(matrix, n);
 	PrintMatrix(matrix, n);
 

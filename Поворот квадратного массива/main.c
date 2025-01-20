@@ -2,36 +2,38 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int** CreateMatrix(int n) {
-	int** matrix = (int**)malloc(sizeof(int*) * n);
-	for (int i = 0; i < n; i++)
-		matrix[i] = (int*)calloc(n, sizeof(int));
+int** CreateMatrix(int n)
+{
+    int** matrix = (int**)malloc(sizeof(int*) * n);
+    for (int i = 0; i < n; i++)
+        matrix[i] = (int*)calloc(n, sizeof(int));
 
-	return matrix;
+    return matrix;
 }
 
-int** ReadMatrix(int** matrix, int n) {
-	for (int i = 0; i < n; i++)
-		for (int j = 0; j < n; j++)
-			scanf("%d", &matrix[i][j]);
+int** ReadMatrix(int** matrix, int n)
+{
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+            scanf("%d", &matrix[i][j]);
 
-	return matrix;
+    return matrix;
 }
 
 void PrintMatrix(int** matrix, int n)
 {
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < n; j++)
-			printf("%3d", matrix[i][j]);
-		printf("\n");
-	}
-	printf("\n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+            printf("%3d", matrix[i][j]);
+        printf("\n");
+    }
+    printf("\n");
 }
 
 int** Transpose(int** matrix, int n)
 {
-	int a;
+    int a;
 
 	for (int i = 0; i < n; i++)
 		for (int j = i + 1; j < n; j++) {
@@ -59,12 +61,12 @@ int** Turn(int** matrix, int n)
 
 int main(int argc, char* argv[])
 {
-	int n;
-	scanf("%d", &n);
-	int** matrix = CreateMatrix(n);
-	matrix = ReadMatrix(matrix, n);
-	matrix = Turn(matrix, n);
-	PrintMatrix(matrix, n);
+    int n;
+    scanf("%d", &n);
+    int** matrix = CreateMatrix(n);
+    matrix = ReadMatrix(matrix, n);
+    matrix = Turn(matrix, n);
+    PrintMatrix(matrix, n);
 
-	return 0;
+    return 0;
 }

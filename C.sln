@@ -148,7 +148,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Поворот квадра
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "В шахматном порядке", "В шахматном порядке\В шахматном порядке.vcxproj", "{47767613-FF51-48AE-9687-5663DD8E1B9C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Квадратный массив", "Квадратный массив\Квадратный массив.vcxproj", "{A91A676C-2BDB-48E1-94CC-3E7D6A66FB4F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Андреевский_крест", "Андреевский_крест\Андреевский_крест.vcxproj", "{A91A676C-2BDB-48E1-94CC-3E7D6A66FB4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
