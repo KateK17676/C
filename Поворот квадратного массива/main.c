@@ -29,17 +29,29 @@ void PrintMatrix(int** matrix, int n)
 	printf("\n");
 }
 
-int** Turn(int** matrix, int n)
+int** Transpose(int** matrix, int n)
 {
 	int a;
 
-	for (int i = 0; i < (int)n/2; i++)
-		for (int j = i; j < n; j++) {
+	for (int i = 0; i < n; i++)
+		for (int j = i + 1; j < n; j++) {
 			a = matrix[i][j];
-			matrix[i][j] = matrix[n-1-j][n-1-i];
-			matrix[n-1-j][n-1-i] = matrix[]
-			matrix[
+			matrix[i][j] = matrix[j][i];
 			matrix[j][i] = a;
+		}
+	return matrix;
+}
+
+int** Turn(int** matrix, int n)
+{
+	Transpose(matrix, n);
+	int a;
+
+	for (int i = 0; i < n/2; i++)
+		for (int j = 0; j < n; j++) {
+			a = matrix[j][i];
+			matrix[j][i] = matrix[j][n-1-i];
+			matrix[j][n - 1 - i] = a;
 		}
 	return matrix;
 }

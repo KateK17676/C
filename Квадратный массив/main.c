@@ -41,6 +41,13 @@ int** Dioganals(int** matrix, int n)
 	return matrix;
 }
 
+int** Dioganals2(int** matrix, int n)
+{
+
+
+	return matrix;
+}
+
 
 int main(int argc, char* argv[])
 {
