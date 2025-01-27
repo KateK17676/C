@@ -150,6 +150,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "В шахматном по�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Андреевский_крест", "Андреевский_крест\Андреевский_крест.vcxproj", "{A91A676C-2BDB-48E1-94CC-3E7D6A66FB4F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Структуры", "8. Структуры", "{B35B0F6E-93D1-4415-8C77-BB65571D3FF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. Файлы", "9. Файлы", "{F38B85F1-C5A8-4D16-98CD-A969DF020972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Строки", "7. Строки", "{43C21DA1-51CA-419B-9E6A-3C4C874B685E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
