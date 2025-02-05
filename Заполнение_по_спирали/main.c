@@ -13,11 +13,13 @@ int** CreateMatrix(int s, int n)
 
 int** FillMatrix(int** matrix, int s, int n)
 {
-    for (int i = 0; i < s; i++)
-        for (int j = 0; j < n; j++)
-            matrix[i][j] = min(min(i, s - i - 1), min(j, n - j - 1));
-
-    return matrix;
+    int s_1 = s;
+    int n_1 = n;
+    int k_1 = s * n - 1;
+    int k = 0;
+    while (k < k_1) {
+        while 
+    }
 }
 
 void PrintMatrix(int** matrix, int n)
